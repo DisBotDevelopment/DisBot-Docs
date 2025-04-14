@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DisBotDevelopment/DisBot-Docs/blob/master/docs/',
+            'https://github.com/DisBotDevelopment/DisBot-Docs/blob/master/',
         },
         // blog: {
         //   showReadingTime: true,
