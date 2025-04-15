@@ -25,9 +25,9 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--primary button--lg" to="/docs/intro">
+          <a className="button button--primary button--lg" href="/docs/index">
             Documentation
-          </Link>
+          </a>
           <Link
             className="button button--secondary button--lg margin-left--sm"
             href="https://disbot.xyz/invite"
@@ -114,13 +114,13 @@ function StatsSection(): ReactNode {
         <div className="row">
           <div className="col col--4 text--center">
             <Heading as="h2" className={styles.statNumber}>
-              10,000+
+              100+
             </Heading>
             <p className={styles.statLabel}>Servers</p>
           </div>
           <div className="col col--4 text--center">
             <Heading as="h2" className={styles.statNumber}>
-              5M+
+              100,000+
             </Heading>
             <p className={styles.statLabel}>Users</p>
           </div>
@@ -144,7 +144,7 @@ function CtaSection(): ReactNode {
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot"
+            href="https://disbot.xyz/invite"
           >
             Add to Discord
           </Link>
