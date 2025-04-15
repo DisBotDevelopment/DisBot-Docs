@@ -1,0 +1,71 @@
+
+.style_sparkles .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_sparkles .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/sparkles.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_booktext .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_booktext .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/booktext.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_webhook .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_webhook .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/webhook.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_route .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_route .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/route.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
