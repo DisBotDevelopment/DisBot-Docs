@@ -1,4 +1,4 @@
-export default function IconExternalLink({ width = 13.5, height = 13.5 }) {
+export default function IconExternalLink({ width = 15.0, height = 15.0 }) {
   return (
     <div
       style={{
@@ -8,6 +8,7 @@ export default function IconExternalLink({ width = 13.5, height = 13.5 }) {
         verticalAlign: "middle",
         marginLeft: "0.25rem",
         marginRight: "0.25rem",
+        marginTop: "-1.0rem",
       }}
     >
       <svg
