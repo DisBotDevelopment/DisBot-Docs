@@ -1,7 +1,19 @@
 import fs from "fs";
 import path from "path";
 
-const styles = ["sparkles", "booktext", "webhook", "route"];
+const styles = [
+  "sparkles",
+  "booktext",
+  "webhook",
+  "route",
+  "log",
+  "settings",
+  "command",
+  "feather",
+  "start",
+  "album",
+  "replace"
+];
 
 const output = [];
 

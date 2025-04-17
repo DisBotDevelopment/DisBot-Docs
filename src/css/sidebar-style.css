@@ -69,3 +69,129 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
+.style_log .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_log .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/log.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_settings .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_settings .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/settings.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_command .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_command .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/command.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_feather .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_feather .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/feather.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_start .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_start .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/start.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_album .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_album .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/album.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.style_replace .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_replace .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/replace.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

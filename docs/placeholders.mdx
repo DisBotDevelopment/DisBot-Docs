@@ -1,5 +1,86 @@
 ---
-title: Placeholders
+icon: square-root-variable
 ---
 
-## Introduction
+# Placeholder
+
+### How to use
+
+> In the Global Bot System (**Customer and DisBot**) you can use placeholders by typing this: `{<placeholder>}`.  
+> But the system has a limit: you cannot use placeholders that tag a member or role in Embed Titles, Authors, Footers, or Timestamps.  
+> You can only use image-returning placeholders in image sections of Embeds or Message Content.
+
+---
+
+## Welcome & Leave
+
+| Placeholder            | Description                                            | Where you can use                                    |
+| ---------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
+| `{member.tag}`         | Replace with the member Tag (`@Jesper`)                | Only in Description and Message                      |
+| `{member.name}`        | Replace with the member username (`tnsjesper`)         | Title, Description, Author, Footer, Message          |
+| `{member.globalname}`  | Replace with the member Global Name (`Jesper`)         | Title, Description, Author, Footer, Message          |
+| `{member.displayname}` | Replace with the member Display Name (`Jesper`)        | Title, Description, Author, Footer, Message          |
+| `{member.id}`          | Replace with the member ID (`850470027026759690`)      | Title, Description, Author, Footer, Message          |
+| `{guild.name}`         | Replace with the Guild Name (`DisBot™ Development`)    | Title, Description, Author, Footer, Message          |
+| `{guild.id}`           | Replace with the Guild ID (`1084507523492626522`)      | Title, Description, Author, Footer, Message          |
+| `{guild.membercount}`  | Replace with the Guild Member Count (`28 Members`)     | Title, Description, Author, Footer, Message          |
+| `{guild.owner.tag}`    | Replace with the Guild Owner (`@Jesper`)               | Only in Description and Message                      |
+| `{guild.owner.id}`     | Replace with the Guild Owner ID (`850470027026759690`) | Title, Description, Author, Footer, Message          |
+| `{current.date}`       | Replace with the current Date (`Today at 12:00 pm`)    | In Timestamp                                         |
+| `{member.avatar}`      | Replace with the Avatar URL                            | Only in Image, Thumbnail, Author Image, Footer Image |
+| `,`                    | New Line                                               | Only in Message                                      |
+
+---
+
+## Twitch
+
+| Placeholder             | Description                                                                | Where you can use                           |
+| ----------------------- | -------------------------------------------------------------------------- | ------------------------------------------- |
+| `{streamer}`            | Replace with the Stream Author (`tnsjesper`)                               | Only in Description and Message             |
+| `{stream.vod}`          | Stream Thumbnail URL                                                       | Message, Image, Thumbnail                   |
+| `{stream.title}`        | Replace with current Stream Title (`Today we Play Minecraft`)              | Title, Description, Author, Footer, Message |
+| `{stream.game_name}`    | Replace with current Game (`Minecraft`)                                    | Title, Description, Author, Footer, Message |
+| `{stream.viewer_count}` | Replace with Stream Viewers (`3434 Viewers`)                               | Title, Description, Author, Footer, Message |
+| `{stream.url}`          | Replace with Stream URL ([twitch.tv/jesforge](https://twitch.tv/jesforge)) | Title, Description, Author, Footer, Message |
+| `{pingrole}`            | Pings the role from the Setup                                              | Message                                     |
+| `,`                     | New Line                                                                   | Only in Message                             |
+
+---
+
+## YouTube
+
+| Placeholder   | Description                                                                                            | Where you can use                           |
+| ------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------- |
+| `{author}`    | Replace with Stream Author (`tnsjesper`)                                                               | Only in Description and Message             |
+| `{title}`     | Replace with current Stream Title                                                                      | Title, Description, Author, Footer, Message |
+| `{link}`      | Replace with Stream URL ([YouTube](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)) | Title, Description, Author, Footer, Message |
+| `{thumbnail}` | Thumbnail URL from YouTube Video                                                                       | Message, Image, Thumbnail                   |
+| `{pingrole}`  | Pings the role from the Setup                                                                          | Message                                     |
+| `,`           | New Line                                                                                               | Only in Message                             |
+
+---
+
+## Ticket System
+
+> _Note: These placeholders only work in the system, not in the embed from `/ticket setup`._
+
+| Placeholder            | Description                                         | Where you can use                                         |
+| ---------------------- | --------------------------------------------------- | --------------------------------------------------------- |
+| `{member.tag}`         | Replace with the member Tag (`@Jesper`)             | Only in Description and Message                           |
+| `{member.name}`        | Replace with the member username (`tnsjesper`)      | Title, Description, Author, Footer, Message, Channel Name |
+| `{member.globalname}`  | Replace with the member Global Name (`Jesper`)      | Title, Description, Author, Footer, Message, Channel Name |
+| `{member.displayname}` | Replace with the member Display Name (`Jesper`)     | Title, Description, Author, Footer, Message, Channel Name |
+| `{member.id}`          | Replace with the member ID (`850470027026759690`)   | Title, Description, Author, Footer, Message, Channel Name |
+| `{guild.name}`         | Replace with the Guild Name (`DisBot™ Development`) | Title, Description, Author, Footer, Message, Channel Name |
+| `{guild.id}`           | Replace with the Guild ID (`1084507523492626522`)   | Title, Description, Author, Footer, Message, Channel Name |
+| `{handlers.id}`        | Replace with the Ticket Handler ID                  | Title, Description, Author, Footer, Message               |
+| `{handlers.tag}`       | Replace with the Ticket Handler Tag                 | Only in Description and Message                           |
+| `{current.date}`       | Replace with the current Date (`Today at 12:00 pm`) | In Timestamp                                              |
+| `{member.avatar}`      | Replace with the Avatar URL                         | Only in Image, Thumbnail, Author Image, Footer Image      |
+
+---
+
+### Request a Placeholder
+
+- You can open a placeholder request or DM me on Discord to request one!
+- **Note**: `{member.<placeholder>}` only works if there is a member interaction.

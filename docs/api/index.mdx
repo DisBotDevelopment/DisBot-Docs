@@ -2,13 +2,63 @@
 title: Overview
 ---
 
-Let's take a look at the API of DisBot.
+:::note DisBot API
+You can find the API Docs at Postman: [DisBot API](https://www.postman.com/interstellar-eclipse-644118/disbot-api/collection/ktvtmeg/disbot-api?action=share&creator=38188594&active-environment=38188594-4e419694-4101-4dba-83bc-c36226e50f1c)
+:::
 
-## DisBot API and Customer API
+Let's take a look at the API of DisBot. The API is divided into two parts: the DisBot API and the Customer API. The DisBot API is used to interact with the bot itself, while the Customer API is used to interact with the customer service system.
 
-:::danger Infomation
+:::info Infomation
 Customner API is not available yet. Because the Customer Service is currently under development and offline.
 :::
 
+To use the API you need to have a valid token. You get the command with the commands [`/bot token`](../commands/bot.mdx#api). And whitelist Guilds with the Guild Whitelist Service. To Interact with one guild you need to run the command on the guild and press the button "Whitelist to my Account" then you can use the GuildId in the API Requests via "GuildId" and your "Authentication" token in the header. The API is a RESTful API and uses JSON as the data format. The API is designed to be easy to use and understand. The API is divided into several sections, each with its own set of endpoints. The API is designed to be easy to use and understand.
+
+**As mentioned above, the API is available at https://api.disbot.xyz and the Documentation is available at [DisBot@Postman](https://www.postman.com/interstellar-eclipse-644118/disbot-api/collection/ktvtmeg/disbot-api?action=share&creator=38188594&active-environment=38188594-4e419694-4101-4dba-83bc-c36226e50f1c)**
+
 ## Events API
 
+:::info Infomation
+The Events API is not available yet. Because the Events API is currently under development!<br />
+More Infomation will be available soon.
+
+---
+
+This API will be available in the `1.6.0b30`
+:::
+
+The Events API is a WebSocket API that allows you to receive real-time events from the DisBot. This "Event Bridge" is used to comunicate with Discord Events via DisBot and listen to it.
+Our WebSocket API use the popular https://socket.io/ library. You can use any library that supports the Socket.IO protocol. (https://socket.io/docs/v4/#client-implementations)
+
+```ts title="client.ts"
+import ms from "ms";
+import { io } from "socket.io-client";
+
+const socket = io("ws://ws.disbot.xyz", {
+  auth: {
+    token: "<api-token>",
+  },
+  reconnectionAttempts: 5,
+  timeout: 10000,
+});
+
+socket.on("connect", () => {
+  console.log("Connected to server");
+});
+
+socket.on("event", (data: EventAPIOBject) => {
+  const msg = JSON.parse(data);
+  // Handle the event data here (You get a DisBot-Event-Object)
+  console.log(msg);
+});
+
+socket.io.on("reconnect_attempt", () => {
+  console.log("Attempting reconnection...");
+});
+
+export interface EventAPIOBject {
+  type: string;
+  guildId: string;
+  data: any;
+}
+```
