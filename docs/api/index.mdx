@@ -34,7 +34,7 @@ Our WebSocket API use the popular https://socket.io/ library. You can use any li
 import ms from "ms";
 import { io } from "socket.io-client";
 
-const socket = io("ws://ws.disbot.xyz", {
+const socket = io("wss://ws.disbot.xyz", {
   auth: {
     token: "<api-token>",
   },
