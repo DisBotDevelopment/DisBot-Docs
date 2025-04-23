@@ -1,5 +1,9 @@
 # Notification
 
+:::info Placeholder
+**In this resource you can use DisBot [Placeholder](../placeholders.mdx)**
+:::
+
 ## Youtube Notification
 
 ### Setup a Notification
@@ -22,9 +26,8 @@ To get the Channel ID use the youtube channel Info.
 
 </details>
 
-:::danger NOT DONE YET
-The Docs for this section are not done!
-:::
+If you are done with this steps then you need to do the same setup as with the Twitch Notification.
+You need to setup your Message and the Role and Channel Data. If you are done you can manage the Notification like twitch.
 
 ### Managment of the Notification
 

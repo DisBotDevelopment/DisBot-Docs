@@ -4,7 +4,6 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
-import DisBotLogo from "../../static/img/disbot.png";
 
 import styles from "./index.module.css";
 
@@ -14,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--dark", styles.heroBanner)}>
       <div className="container">
         <img
-          src={DisBotLogo}
+          src={"https://cdn.discordapp.com/avatars/1063079377975377960/a9e7f970184db6c32157a1a2350b6806.webp?size=1024/not"}
           alt="DisBot Logo"
           className={styles.heroLogo}
           width="150"
@@ -25,7 +24,7 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <a className="button button--primary button--lg" href="/docs/index">
+          <a className="button button--primary button--lg" href="/docs">
             Documentation
           </a>
           <Link
