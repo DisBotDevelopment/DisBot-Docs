@@ -27,8 +27,8 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
-      id: 'quick-start',
-      label: 'Quick Start',
+      id: 'troubleshooting',
+      label: 'Troubleshooting',
       className: "style_start"
     },
     {
