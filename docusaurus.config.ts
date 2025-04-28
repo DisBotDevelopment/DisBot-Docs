@@ -82,7 +82,7 @@ const config: Config = {
           position: 'left',
           label: 'Overview',
         },
-        { to: '/docs/quick-start', label: 'Quick Start', position: 'left' },
+        { to: '/docs/troubleshooting', label: 'Troubleshooting', position: 'left' },
         {
           href: 'https://github.com/DisBotDevelopment/DisBot-Docs',
           label: 'GitHub',
