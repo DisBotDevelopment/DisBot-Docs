@@ -1,9 +1,9 @@
-import type { ReactNode } from "react";
-import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
+import Layout from "@theme/Layout";
+import clsx from "clsx";
+import type {ReactNode} from "react";
 
 import styles from "./index.module.css";
 
@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx("hero hero--dark", styles.heroBanner)}>
       <div className="container">
         <img
-          src={"https://cdn.discordapp.com/avatars/1063079377975377960/a9e7f970184db6c32157a1a2350b6806.webp?size=1024/not"}
+            src={"https://cdn.discordapp.com/avatars/1063079377975377960/e51b292ff0a913c5b68410f983178cf5.webp?size=1024"}
           alt="DisBot Logo"
           className={styles.heroLogo}
           width="150"
