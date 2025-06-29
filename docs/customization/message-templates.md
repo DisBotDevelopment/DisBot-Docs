@@ -16,14 +16,14 @@ Not all systems can currently use the Message Template System
 
 Message templates are created with the command `/code messages`
 
-![img](https://zipline.service.xyzspace.dev/u/4KAVav.png)
+![img](https://cdn.xyzhub.link/u/4KAVav.png)
 
-![img](https://zipline.service.xyzspace.dev/u/sNLHgz.png)
+![img](https://cdn.xyzhub.link/u/sNLHgz.png)
 
 Now you can manage or customize your current message templates as well as create new ones! With “Create Message Template” you can create a message template. Follow the guide from the system and customize your message or create your embed.
 
-![img](https://zipline.service.xyzspace.dev/u/5uD8qT.png)
+![img](https://cdn.xyzhub.link/u/5uD8qT.png)
 
 If you want to customize an existing template, use “Manage Messages” and you will see your list of templates. Select your template and you can manage and customize it as well as send it to a channel.
 
-![img](https://zipline.service.xyzspace.dev/u/EKmG5i.png)
+![img](https://cdn.xyzhub.link/u/EKmG5i.png)

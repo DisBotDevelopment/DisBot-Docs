@@ -16,41 +16,41 @@ Here are a Tutorial.
 
 - Go to Server Settings
 
-![img](https://zipline.service.xyzspace.dev/u/9CQUnw.png)
+![img](https://cdn.xyzhub.link/u/9CQUnw.png)
 
 ### Step 2
 
 - Now open the Integrations Tab
 
-![img](https://zipline.service.xyzspace.dev/u/c6dpSk.png)
+![img](https://cdn.xyzhub.link/u/c6dpSk.png)
 
 ### Step 3
 
 - Now Find DisBot and Click Manage
 
-![img](https://zipline.service.xyzspace.dev/u/3ZLiTI.png)
+![img](https://cdn.xyzhub.link/u/3ZLiTI.png)
 
 ### Step 4
 
 - Now you see the Bot Overview
 - Here you can Add and Remove Members, Roles and Channels from Command Using and Bot using
 
-![img](https://zipline.service.xyzspace.dev/u/dilHBv.pngg)
+![img](https://cdn.xyzhub.link/u/dilHBv.pngg)
 
 ### Step 5
 
 - Now edit a Command Permission
 - Click on a Command like `/autopublish`
 
-![img](https://zipline.service.xyzspace.dev/u/R7SiPV.png)
+![img](https://cdn.xyzhub.link/u/R7SiPV.png)
 
 - Here you can add and Remove Channels to use the Command and Add and Remove members and Roles to use the Command. (And you can see the Default Permission.)
 
-![img](https://zipline.service.xyzspace.dev/u/fYdwrh.png)
+![img](https://cdn.xyzhub.link/u/fYdwrh.png)
 
 ### Example from a Edited Command
 
-![img](https://zipline.service.xyzspace.dev/u/O8OooJ.png)
+![img](https://cdn.xyzhub.link/u/O8OooJ.png)
 
 - `@everyone` can not use the Command
 - The `@Team` Role can use the Command in the #chat Channel
