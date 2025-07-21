@@ -27,6 +27,12 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'doc',
+      id: 'usage',
+      label: 'Usage',
+      className: "style_usage"
+    },
+    {
+      type: 'doc',
       id: 'troubleshooting',
       label: 'Troubleshooting',
       className: "style_start"

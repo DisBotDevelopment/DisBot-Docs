@@ -12,7 +12,8 @@ const styles = [
   "feather",
   "start",
   "album",
-  "replace"
+  "replace",
+  "usage"
 ];
 
 const output = [];

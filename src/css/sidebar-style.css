@@ -195,3 +195,21 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
+.style_usage .menu__link {
+  position: relative;
+  padding-left: 2em;
+}
+.style_usage .menu__link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 1em;
+  height: 1em;
+  background-image: url("../../static/img/sidebar/usage.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
