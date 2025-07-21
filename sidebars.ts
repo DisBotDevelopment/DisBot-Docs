@@ -39,7 +39,6 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      id: 'usage',
       label: 'Usage',
       items: [
         {
